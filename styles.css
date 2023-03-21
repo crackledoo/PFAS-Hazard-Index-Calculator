@@ -1,0 +1,60 @@
+.equation-wrapper {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+div.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    space-betw
+}
+
+.fraction {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.numerator {
+    border-bottom: 2px solid black;
+    padding: 0.4rem;
+}
+
+.output {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.equals, .plus {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.result-wrapper {
+    gap: 3rem;
+}
+
+.hi-result {
+    display: flex;
+    outline: 1px solid black;
+    border-radius: 0.15rem;
+    justify-content: center;
+    padding: 0.4rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.equation-input {
+    height: 1.5rem;
+    margin-inline: 0.3rem;
+    width: 3rem;
+}
