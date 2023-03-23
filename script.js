@@ -1,5 +1,10 @@
 var inputNodeList = document.querySelectorAll('.equation-input');
-var inputArray = Array.from(inputNodeList);
+var inputArray = [];
+for (var i = 0; i < inputNodeList.length; i++) {
+  inputArray.push(inputNodeList[i]);
+}
+
+Array.from(inputNodeList);
 
 var inputFieldIds = ['#pfhxs', '#pfna', '#hfpo-da', '#pfbs'];
 
